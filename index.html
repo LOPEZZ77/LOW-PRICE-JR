@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JR - Empresa de soluciones innovadoras. Descubre nuestros servicios y productos.">
+  <title>Empresa JR - Soluciones Innovadoras</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      width: 100%;
+      max-width: 1200px;
+    }
+    header {
+      background-color: #11a0c0;
+      color: white;
+      padding: 10px;
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo img {
+      width: 50px;
+      height: auto;
+    }
+    h2 {
+      flex-grow: 1;
+      text-align: center;
+      margin: 0;
+    }
+    .contact-links a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .contact-links img {
+      width: 50px;
+      height: auto;
+    }
+    .contact-links a:hover img {
+      opacity: 0.8;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    section {
+      margin: 40px 0 20px 0;
+      padding: 20px;
+      background: #f3f3f3;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h2#products-title {
+      font-size: 28px;
+      color: #11a0c0;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Agregada sombra al texto */
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .product {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 15px;
+      text-align: center;
+      width: 200px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra añadida a los productos */
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin: 15px 0 5px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .product p {
+      margin: 0;
+      font-weight: bold;
+      color: #11a0c0;
+      font-size: 16px;
+    }
+    .product:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 12px rgba(0,0,0,0.3); /* Sombra más intensa al hacer hover */
+    }
+    footer {
+      background-color: #333;
+      color: rgb(244, 244, 244);
+      padding: 10px;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">
+      <img src="IMG_20240104_183552_087.jpg" alt="Logo de JR">
+    </div>    
+    <h2>Low price JR</h2>
+    <div class="contact-links">
+      <!-- Imagen de Facebook -->
+      <a href="https://www.facebook.com" target="_blank" aria-label="Visítanos en Facebook">
+        <img src="01-08 a las 18.11.39_12facb31.jpg" alt="Facebook">
+      </a>
+      <!-- Imagen de WhatsApp -->
+      <a href="https://wa.me/541157663325?text=Hola%20buenos%20dias%20empresa%20JR" target="_blank" aria-label="Contáctanos por WhatsApp">
+        <img src="Imagen de WhatsApp 2025-01-08 a las 18.11.39_6a9b1e70.jpg" alt="WhatsApp">
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section id="products">
+      <h2 id="products-title">Nuestros Productos</h2>
+      <div class="products">
+        <div class="product">
+          <img src="17.47.39_379d30a5.jpg" alt="Auriculares">
+          <h3>Auriculares Bluetooth In-Ear F9-5 Negro Inalámbricos</h3>
+          <p>$7.500</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 JR. Todos los derechos reservados.</p>
+  </footer>
+</div>
+</body>
+</html>
